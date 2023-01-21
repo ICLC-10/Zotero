@@ -1,0 +1,16 @@
+name: CI Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install jingtrang
+        run: pip install jingtrang
+      - name: Validate ICLC-10.csl against RelaxNG schema
+        run: pyjing -c schemas/csl.rnc styles/ICLC-10.csl
