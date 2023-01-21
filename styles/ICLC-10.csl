@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
-    <title>Euralex 2022 (Mannheim)</title>
-    <id>http://www.zotero.org/styles/euralex-2022-mannheim</id>
-    <link href="http://www.zotero.org/styles/euralex-2022-mannheim" rel="self"/>
+    <title>ICLC-10 2023 (Mannheim)</title>
+    <id>http://www.zotero.org/styles/ICLC-10</id>
+    <link href="http://www.zotero.org/styles/ICLC-10" rel="self"/>
+    <link href="http://www.zotero.org/styles/euralex-2022-mannheim" rel="template"/>
     <link href="http://www.zotero.org/styles/harvard-cite-them-right-11th-edition" rel="template"/>
     <author>
-      <name>David Lindemann</name>
-      <uri>http://www.wikidata.org/entity/Q57694630</uri>
+      <name>Marc Kupietz</name>
+      <uri>https://orcid.org/0000-0001-8997-8256</uri>
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <summary>Style for Euralex 2022 (Mannheim) Conference Proceedings. Based on "Cite Them Right 11th edition - Harvard", by Patrick O'Brien</summary>
-    <updated>2021-12-02T10:12:20+00:00</updated>
+    <summary>Style for ICLC-10 (Mannheim) Conference Proceedings. Based on the style for Euralex 2022 (Mannheim) Conference Proceedings (https://github.com/elexis-eu/elexifinder) authored by David Lindemann (http://www.wikidata.org/entity/Q57694630). Based on "Cite Them Right 11th edition - Harvard", by Patrick O'Brien</summary>
+    <updated>2023-01-21T16:04:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
