@@ -62,7 +62,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name delimiter="/" delimiter-precedes-last="always" initialize-with="." name-as-sort-order="all"/>
+      <name delimiter="/" delimiter-precedes-last="always" initialize="false" initialize-with="." name-as-sort-order="all"/>
       <label form="short" prefix=" (" suffix=")"/>
       <substitute>
         <names variable="editor"/>
@@ -80,7 +80,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" delimiter="/" delimiter-precedes-last="always" initialize-with=". "/>
+      <name form="short" delimiter="/" delimiter-precedes-last="always" initialize="false" initialize-with=". "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
