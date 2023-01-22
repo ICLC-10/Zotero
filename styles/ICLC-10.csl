@@ -31,12 +31,12 @@
     <choose>
       <if type="chapter paper-conference" match="any">
         <names variable="container-author" delimiter="/">
-          <name delimiter="/" delimiter-precedes-last="always" initialize-with=". " sort-separator="/" name-as-sort-order="all"/>
+          <name delimiter="/" delimiter-precedes-last="always" initialize="false" initialize-with=". " sort-separator="/" name-as-sort-order="all"/>
         </names>
         <choose>
           <if variable="container-author" match="none">
             <names variable="editor translator" delimiter="/">
-              <name delimiter="/" delimiter-precedes-last="always" initialize-with="." name-as-sort-order="all"/>
+              <name delimiter="/" delimiter-precedes-last="always" initialize="false" initialize-with="." name-as-sort-order="all"/>
               <label form="short" prefix=" (" suffix=")"/>
             </names>
           </if>
@@ -49,13 +49,13 @@
       <if type="chapter paper-conference" match="none">
         <names variable="editor translator" delimiter=". ">
           <label form="verb" text-case="capitalize-first" suffix=" "/>
-          <name delimiter="/" delimiter-precedes-last="always" initialize-with="."/>
+          <name delimiter="/" delimiter-precedes-last="always" initialize="false" initialize-with="."/>
         </names>
       </if>
       <else-if variable="container-author" match="any">
         <names variable="editor translator" delimiter=". ">
           <label form="verb" text-case="capitalize-first" suffix=" "/>
-          <name initialize-with=". " delimiter="/"/>
+          <name initialize="false" initialize-with=". " delimiter="/"/>
         </names>
       </else-if>
     </choose>

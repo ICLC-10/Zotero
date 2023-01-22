@@ -6,6 +6,9 @@ The ICLC-10 Zotero style is heavily based on the [Euralex 2022 (Mannheim) Zotero
 
 ## Changes
 
+- unreleased
+  - editors' given names are not initialized
+
 - v0.0.1 - 2023-01-21
   - given names are not initialized
   - in the bibliography, "et. al." is only used after 21 authors (currently still after 3 for editors)
