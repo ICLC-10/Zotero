@@ -1,12 +1,12 @@
 # Zotero style for the [10<sup>th</sup>International Contrastive Linguistics Conference](https://iclc10.ids-mannheim.de/keynotes.shtml)
 
-Use the ICLC-10 style (download [here](https://github.com/ICLC-10/Zotero/releases/latest/download/ICLC-10.csl)) for generating citations and the bibliography with [Zotero](https://www.zotero.org/) for your ICLC-10 submissions.
+Use the ICLC-10 [Zotero](https://www.zotero.org/) style ([click here to download](https://github.com/ICLC-10/Zotero/releases/latest/download/ICLC-10.csl)) for generating citations and bibliography for your ICLC-10 submissions.
 
 The ICLC-10 Zotero style is heavily based on the [Euralex 2022 (Mannheim) Zotero style](https://github.com/elexis-eu/elexifinder/blob/master/Zotero/euralex-2022-mannheim.csl) authored by [David Lindemann](https://github.com/dlindem) which itself is based on *Cite Them Right 11th edition - Harvard*, by Patrick O'Brien.
 
 ## Changes
 
-- unreleased
+- v0.0.2 - 2023-01-22
   - editors' given names are not initialized
   - switched to harvard-cite-them-right publisher macro
   - space before journal issue removed
