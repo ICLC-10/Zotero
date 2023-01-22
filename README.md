@@ -8,6 +8,7 @@ The ICLC-10 Zotero style is heavily based on the [Euralex 2022 (Mannheim) Zotero
 
 - unreleased
   - editors' given names are not initialized
+  - switched to harvard-cite-them-right publisher macro
 
 - v0.0.1 - 2023-01-21
   - given names are not initialized
