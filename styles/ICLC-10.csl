@@ -205,7 +205,7 @@
     <choose>
       <if type="article-journal">
         <text variable="volume"/>
-        <text variable="issue" prefix=" (" suffix=")"/>
+        <text variable="issue" prefix="(" suffix=")"/>
       </if>
     </choose>
   </macro>
