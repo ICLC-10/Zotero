@@ -235,15 +235,6 @@
         <group delimiter=". ">
           <group delimiter=" ">
             <text variable="container-title"/>
-            <choose>
-              <if type="article article-journal" match="any">
-                <choose>
-                  <if match="none" variable="page volume">
-                    <text value="Preprint" prefix="[" suffix="]"/>
-                  </if>
-                </choose>
-              </if>
-            </choose>
           </group>
           <text macro="edition"/>
         </group>
