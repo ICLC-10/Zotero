@@ -6,6 +6,10 @@ The ICLC-10 Zotero style is heavily based on the [Euralex 2022 (Mannheim) Zotero
 
 ## Changes
 
+- v0.0.3 - 2023-05-04
+  - `[Preprint]` is no more added automatically in forthcoming journal articles
+  - `https://doi.org/` is used instead of `http://doi.org/` to refer to DOIs
+
 - v0.0.2 - 2023-01-22
   - editors' given names are not initialized
   - switched to harvard-cite-them-right publisher macro
