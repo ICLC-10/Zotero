@@ -27,6 +27,17 @@
       <term name="in">In:</term>
     </terms>
   </locale>
+  <locale xml:lang="de">
+    <terms>
+      <term name="editor" form="short">
+        <single>Hg.</single>
+        <multiple>Hgg.</multiple>
+      </term>
+      <term name="editortranslator" form="verb">bearbeitet und übersetzt von</term>
+      <term name="edition" form="short">Ausg.</term>
+      <term name="in">In:</term>
+    </terms>
+  </locale>
   <macro name="editor">
     <choose>
       <if type="chapter paper-conference" match="any">
