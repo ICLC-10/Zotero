@@ -6,6 +6,11 @@ The ICLC-10 Zotero style is heavily based on the [Euralex 2022 (Mannheim) Zotero
 
 ## Changes
 
+- v0.0.4 - 2023-08-01
+  - en-GB default locale dropped
+  - problem with non en-UK en-locales ("in") fixed
+  - some German localizations added
+
 - v0.0.3 - 2023-05-04
   - `[Preprint]` is no more added automatically in forthcoming journal articles
   - `https://doi.org/` is used instead of `http://doi.org/` to refer to DOIs
