@@ -6,6 +6,9 @@ The ICLC-10 Zotero style is heavily based on the [Euralex 2022 (Mannheim) Zotero
 
 ## Changes
 
+- v0.0.5 - 2024-11-29
+  - changed "u. a." to "et al." in German citation
+
 - v0.0.4 - 2023-08-01
   - en-GB default locale dropped
   - problem with non en-UK en-locales ("in") fixed
